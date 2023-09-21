@@ -1,0 +1,7 @@
+.navbar-item {
+  @apply px-3 py-2 font-medium text-gray-700 rounded-md;
+}
+
+.navbar-item.is-active {
+  @apply text-accent-700 bg-accent-50;
+}

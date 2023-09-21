@@ -1,0 +1,113 @@
+.input-wrapper {
+  @apply flex shadow-sm rounded-lg py-2.5 px-4 items-center gap-2;
+}
+
+.input-wrapper input,
+.input-wrapper textarea {
+  @apply flex-1 w-full p-0 text-base border-0 focus:ring-0 font-inherit placeholder:text-gray-400 placeholder:font-normal bg-inherit;
+}
+
+.input-wrapper input.with-trailing-icon {
+  width: calc(100% - 1rem);
+}
+
+.input-wrapper:focus-within {
+  @apply ring-4 ring-gray-100;
+}
+
+.input-label {
+  @apply block text-sm text-gray-700 font-medium mb-1.5;
+}
+
+.input-leading-item {
+  @apply text-gray-500 py-2.5 px-4 border-r border-gray-300;
+}
+
+.input-hint,
+.input-error {
+  @apply block text-sm mt-1.5;
+}
+
+.input-hint {
+  @apply text-gray-500;
+}
+
+.input-error {
+  @apply text-red-500;
+}
+
+.input-wrapper.disabled {
+  @apply border border-gray-300 bg-gray-50;
+}
+
+.input-wrapper.disabled input,
+.input-wrapper.disabled textarea {
+  @apply bg-gray-50;
+}
+
+/* Sizes */
+
+.input.is-sm .input-wrapper {
+  @apply py-1.5 px-2 rounded-md;
+}
+
+.input.is-sm input,
+.input.is-sm textarea {
+  @apply text-sm;
+}
+
+/* Input Groups */
+
+.input-leading-item {
+  @apply border-b border-l border-gray-300 rounded-l-lg;
+}
+
+.input-group .input-wrapper {
+  @apply p-0 border-0 shadow-none;
+}
+
+.input-group .input-wrapper:focus-within {
+  @apply ring-0;
+}
+
+.input-group-wrapper {
+  @apply flex items-center flex-1;
+}
+
+.input-group-items {
+  @apply flex shadow-sm rounded-lg py-2.5 px-4 items-center gap-2 border border-gray-300 flex-1;
+}
+
+.input-group-items:focus-within {
+  @apply ring-4 ring-gray-100;
+}
+
+.input-group-items.disabled {
+  @apply border border-gray-300 bg-gray-50;
+}
+
+.input-group-items.disabled input,
+.input-group-items.disabled select {
+  @apply bg-gray-50;
+}
+
+.input-leading-item + .input-group-items {
+  @apply border-l-0 rounded-l-none;
+}
+
+.input-group-items .input {
+  @apply flex-1;
+}
+
+.input-group-items select {
+  @apply flex-1 p-0 pr-8 text-base text-gray-900 border-0 focus:ring-0 font-inherit placeholder:text-gray-500 placeholder:font-normal;
+}
+
+.input-group-items select {
+  @apply -mr-3;
+}
+
+.input-group.is-sm,
+.input-group.is-sm input {
+  @apply text-sm !important;
+}

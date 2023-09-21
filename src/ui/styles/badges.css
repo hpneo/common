@@ -1,0 +1,31 @@
+.badge {
+  @apply inline-flex items-center gap-1.5 rounded-3xl;
+}
+
+/* Sizes */
+
+.badge.is-sm {
+  @apply py-0.5 px-2 text-xs;
+}
+
+.badge.is-md {
+  @apply py-0.5 px-2.5 text-sm;
+}
+
+.badge.is-lg {
+  @apply px-3 py-1 text-sm;
+}
+
+/* Icon only */
+
+.badge.icon-only.is-sm {
+  @apply p-1;
+}
+
+.badge.icon-only.is-md {
+  @apply p-1.5;
+}
+
+.badge.icon-only.is-lg {
+  @apply px-2;
+}

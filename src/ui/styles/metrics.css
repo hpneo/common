@@ -1,0 +1,15 @@
+.metrics-group {
+  @apply flex gap-6;
+}
+
+.metric-item {
+  @apply px-4 py-5 bg-white rounded-lg shadow-sm;
+}
+
+.metric-item-header {
+  @apply text-sm font-medium text-gray-500;
+}
+
+.metric-item-value {
+  @apply w-56 font-semibold text-gray-900 text-display-sm;
+}

@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "env": {
+		"es6": true,
+		"node": true
+	},
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["."],
+        "extensions": [".js", ".jsx", ".css"]
+      }
+    },
+    "jest": {
+      "version": 27
+    }
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"allowImportExportEverywhere": true
+	},
+  "extends": ["preact", "plugin:import/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}

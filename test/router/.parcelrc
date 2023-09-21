@@ -1,0 +1,4 @@
+{
+  "extends": "@parcel/config-default",
+  "resolvers": ["../../parcel-resolver-router/index.mjs", "@parcel/resolver-glob", "..."]
+}

@@ -1,0 +1,8 @@
+{
+  "include": ["**/*.js"],
+  "exclude": [],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  }
+}

@@ -1,0 +1,23 @@
+.alert {
+  @apply flex items-start gap-3 p-4 text-sm border rounded-lg;
+}
+
+.alert-supporting-text {
+  @apply flex-1 space-y-1 text-inherit;
+}
+
+.alert-supporting-text h6 {
+  @apply font-medium;
+}
+
+.alert-close-button {
+  @apply -mt-2 -mr-2;
+}
+
+.alert.is-sm {
+  @apply p-2 text-xs;
+}
+
+.alert.is-sm .alert-supporting-text {
+  @apply text-xs;
+}

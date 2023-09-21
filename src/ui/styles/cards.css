@@ -1,0 +1,39 @@
+.card {
+  @apply flex flex-col overflow-hidden bg-white border border-gray-200 rounded-2xl;
+}
+
+.card.is-sm {
+  @apply rounded-lg;
+}
+
+.card.is-xs {
+  @apply rounded-md;
+}
+
+.card-header {
+  @apply flex items-center justify-between w-full p-6 text-left;
+}
+
+.card.is-sm .card-header {
+  @apply p-4;
+}
+
+.card.is-sm .card-body {
+  @apply p-4;
+}
+
+.card.is-xs .card-header {
+  @apply px-3 py-2;
+}
+
+.card.is-xs .card-body {
+  @apply px-3 py-2;
+}
+
+.card .empty-state {
+  @apply border-none;
+}
+
+.card audio::-webkit-media-controls-enclosure {
+  @apply rounded-none;
+}

@@ -1,0 +1,8 @@
+{
+  "extends": "@parcel/config-default",
+  "resolvers": ["@parcel/resolver-glob", "..."],
+  "transformers": {
+    "stories/**/*.stories.js": ["./parcel-transformer-stories/index.mjs", "..."],
+    "src/ui/*.js": ["./parcel-transformer-react-docgen/index.mjs", "..."]
+  }
+}

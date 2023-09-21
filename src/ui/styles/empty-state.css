@@ -1,0 +1,11 @@
+.empty-state {
+  @apply flex items-center justify-center max-w-xl p-8 mx-auto bg-white border border-gray-200 rounded-2xl;
+}
+
+.empty-state-title {
+  @apply text-base font-medium text-center text-gray-900;
+}
+
+.empty-state-text {
+  @apply mt-1 text-sm text-center text-gray-500;
+}

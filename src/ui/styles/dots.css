@@ -1,0 +1,15 @@
+.dot {
+  @apply bg-current;
+}
+
+.dot.is-sm {
+  @apply w-1.5 h-1.5 rounded-full;
+}
+
+.dot.is-md {
+  @apply w-2 h-2 rounded-full;
+}
+
+.dot.is-lg {
+  @apply w-2.5 h-2.5 rounded-full;
+}

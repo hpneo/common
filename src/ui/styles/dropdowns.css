@@ -1,0 +1,23 @@
+.dropdown {
+  @apply relative;
+}
+
+.dropdown .button.icon-only {
+  @apply p-0 rounded-full shadow-none;
+}
+
+.dropdown-menu {
+  @apply absolute z-10 mt-2 overflow-hidden text-sm min-w-max;
+}
+
+.dropdown.is-md .dropdown-menu {
+  @apply text-sm rounded-lg shadow-lg;
+}
+
+.dropdown.is-sm .dropdown-menu {
+  @apply text-sm rounded-md shadow-md;
+}
+
+.dropdown.is-xs .dropdown-menu {
+  @apply text-xs rounded-md shadow-md;
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 w-screen h-screen;
+}
+
+li.active {
+  position: relative;
+}
+
+li.active::after {
+  content: "";
+  @apply bg-slate-300 rounded-sm w-full h-full absolute left-0 top-0;
+}
+
+li.active > * {
+  @apply relative z-10;
+}

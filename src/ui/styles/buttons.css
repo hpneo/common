@@ -1,0 +1,85 @@
+.button {
+  @apply flex items-center justify-center gap-2 rounded-lg shadow-sm font-inherit;
+}
+
+/* Sizes */
+
+.button.is-xs {
+  @apply text-xs py-1.5 px-3 rounded-md;
+}
+
+.button.is-sm {
+  @apply text-sm py-2 px-3.5;
+}
+
+.button.is-md {
+  @apply text-sm py-2.5 px-4;
+}
+
+.button.is-lg {
+  @apply text-base py-2.5 px-4.5;
+}
+
+.button.is-xl {
+  @apply px-5 py-3 text-base;
+}
+
+.button.is-2xl {
+  @apply gap-3 py-4 text-lg px-7;
+}
+
+/* Icon only */
+
+.button.icon-only.is-xs {
+  @apply p-1.5;
+}
+
+.button.icon-only.is-sm {
+  @apply p-2;
+}
+
+.button.icon-only.is-md {
+  @apply p-2.5;
+}
+
+.button.icon-only.is-lg {
+  @apply px-3;
+}
+
+.button.icon-only.is-xl {
+  @apply px-3.5;
+}
+
+.button.icon-only.is-2xl {
+  @apply px-4;
+}
+
+/* Button Groups */
+
+.button-group {
+  @apply flex;
+}
+
+.button-group .button {
+  @apply rounded-none;
+}
+
+.button-group .button:first-child {
+  @apply rounded-l-lg rounded-r-none;
+}
+
+.button-group .button:last-child {
+  @apply rounded-l-none rounded-r-lg;
+}
+
+.button-group .button.icon-only.is-xs {
+  @apply py-1.5 px-2;
+}
+
+.button-group .button.icon-only.is-sm {
+  @apply py-2 px-2.5;
+}
+
+.button-group .button.icon-only.is-md {
+  @apply py-2.5 px-3;
+}

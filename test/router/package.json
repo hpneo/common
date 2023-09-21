@@ -1,0 +1,32 @@
+{
+  "name": "@common/router-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "alias": {
+    "preact/jsx-dev-runtime": "preact/jsx-runtime"
+  },
+  "targets": {
+    "browser": {
+      "engines": {
+        "browsers": [
+          "last 1 Chrome version"
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "@parcel/resolver-glob": "^2.9.2",
+    "lodash": "^4.17.11",
+    "preact": "^10.15.1",
+    "preact-router": "^4.1.1"
+  }
+}

@@ -1,0 +1,27 @@
+.avatar {}
+
+/* Sizes */
+
+.avatar.is-xs {
+  @apply w-6 h-6;
+}
+
+.avatar.is-sm {
+  @apply w-8 h-8;
+}
+
+.avatar.is-md {
+  @apply w-10 h-10;
+}
+
+.avatar.is-lg {
+  @apply w-12 h-12;
+}
+
+.avatar.is-xl {
+  @apply w-14 h-14;
+}
+
+.avatar.is-2xl {
+  @apply w-16 h-16;
+}

@@ -1,0 +1,114 @@
+.cm-s-oceanic-muted {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: inconsolata, monospace;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  background: #1b2630;
+  color: #f8f8f2;
+}
+.cm-s-oceanic-muted .CodeMirror-lines {
+  padding: 8px 0;
+}
+.cm-s-oceanic-muted .CodeMirror-gutters {
+  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+  background-color: #1b2630;
+  padding-right: 10px;
+  z-index: 3;
+  border: none;
+}
+.cm-s-oceanic-muted div.CodeMirror-cursor {
+  border-left: 3px solid #f8f8f2;
+}
+.cm-s-oceanic-muted .CodeMirror-activeline-background {
+  background: #3d2e2e77;
+}
+.cm-s-oceanic-muted .CodeMirror-selected {
+  background: #95a3a63d;
+}
+.cm-s-oceanic-muted .cm-comment {
+  color: #aeaeae;
+}
+.cm-s-oceanic-muted .cm-string {
+  color: #8ad6f2bf;
+}
+.cm-s-oceanic-muted .cm-number {
+  color: #ffb266bf;
+}
+.cm-s-oceanic-muted .cm-atom {
+  color: #ffb266bf;
+}
+.cm-s-oceanic-muted .cm-keyword {
+  color: #e47d80bf;
+}
+.cm-s-oceanic-muted .cm-variable {
+  color: #f2aaecbf;
+}
+.cm-s-oceanic-muted .cm-def {
+  font-style: italic;
+  color: #ffd2a6bf;
+}
+.cm-s-oceanic-muted .cm-variable-2 {
+  color: #bae682bf;
+}
+.cm-s-oceanic-muted .cm-property {
+  color: #ffb266bf;
+}
+.cm-s-oceanic-muted .cm-operator {
+  color: #e47d80bf;
+}
+.cm-s-oceanic-muted .CodeMirror-linenumber {
+  color: #aeaeae;
+}
+.cm-s-oceanic-muted .cm-em {
+  font-style: italic;
+}
+.cm-s-oceanic-muted .cm-strong {
+  font-weight: 600;
+}
+.cm-s-oceanic-muted .cm-tag,
+.cm-s-oceanic-muted .cm-bracket {
+  color: #e47d80bf;
+}
+
+/*
+
+    Name:       dracula
+    Author:     Michael Kaminsky (http://github.com/mkaminsky11)
+
+    Original dracula color scheme by Zeno Rocha (https://github.com/zenorocha/dracula-theme)
+
+*/
+
+
+.cm-s-dracula.CodeMirror, .cm-s-dracula .CodeMirror-gutters {
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important;
+  border: none;
+}
+.cm-s-dracula .CodeMirror-gutters { color: #282a36; }
+.cm-s-dracula .CodeMirror-cursor { border-left: solid thin #f8f8f0; }
+.cm-s-dracula .CodeMirror-linenumber { color: #6D8A88; }
+.cm-s-dracula .CodeMirror-selected { background: rgba(255, 255, 255, 0.10); }
+.cm-s-dracula .CodeMirror-line::selection, .cm-s-dracula .CodeMirror-line > span::selection, .cm-s-dracula .CodeMirror-line > span > span::selection { background: rgba(255, 255, 255, 0.10); }
+.cm-s-dracula .CodeMirror-line::-moz-selection, .cm-s-dracula .CodeMirror-line > span::-moz-selection, .cm-s-dracula .CodeMirror-line > span > span::-moz-selection { background: rgba(255, 255, 255, 0.10); }
+.cm-s-dracula span.cm-comment { color: #6272a4; }
+.cm-s-dracula span.cm-string, .cm-s-dracula span.cm-string-2 { color: #f1fa8c; }
+.cm-s-dracula span.cm-number { color: #bd93f9; }
+.cm-s-dracula span.cm-variable { color: #50fa7b; }
+.cm-s-dracula span.cm-variable-2 { color: white; }
+.cm-s-dracula span.cm-def { color: #50fa7b; }
+.cm-s-dracula span.cm-operator { color: #ff79c6; }
+.cm-s-dracula span.cm-keyword { color: #ff79c6; }
+.cm-s-dracula span.cm-atom { color: #bd93f9; }
+.cm-s-dracula span.cm-meta { color: #f8f8f2; }
+.cm-s-dracula span.cm-tag { color: #ff79c6; }
+.cm-s-dracula span.cm-attribute { color: #50fa7b; }
+.cm-s-dracula span.cm-qualifier { color: #50fa7b; }
+.cm-s-dracula span.cm-property { color: #66d9ef; }
+.cm-s-dracula span.cm-builtin { color: #50fa7b; }
+.cm-s-dracula span.cm-variable-3, .cm-s-dracula span.cm-type { color: #ffb86c; }
+
+.cm-s-dracula .CodeMirror-activeline-background { background: rgba(255,255,255,0.1); }
+.cm-s-dracula .CodeMirror-matchingbracket { text-decoration: underline; color: white !important; }

@@ -1,0 +1,16 @@
+.checkbox-wrapper {
+  @apply flex items-center gap-2;
+}
+
+.checkbox-wrapper input {
+  @apply text-accent-600 focus:ring-gray-100;
+  border-radius: 0.25rem;
+}
+
+.checkbox .input-label {
+  @apply mb-0;
+}
+
+.checkbox .input-hint {
+  @apply mt-0 ml-6;
+}

@@ -1,0 +1,54 @@
+.table {
+  @apply w-full text-gray-700 bg-white border border-separate border-gray-200 divide-y divide-gray-200 rounded-lg shadow-md;
+  border-spacing: 0;
+}
+
+.table thead {
+  @apply text-left bg-gray-50;
+}
+
+.table thead:first-child tr:first-child th:first-child,
+.table tbody:first-child tr:first-child td:first-child {
+  @apply rounded-tl-lg;
+}
+
+.table thead:first-child tr:first-child th:last-child,
+.table tbody:first-child tr:first-child td:last-child {
+  @apply rounded-tr-lg;
+}
+
+.table thead:last-child tr:last-child th:first-child,
+.table tbody:last-child tr:last-child td:first-child {
+  @apply rounded-bl-lg;
+}
+
+.table thead:last-child tr:last-child th:last-child,
+.table tbody:last-child tr:last-child td:last-child {
+  @apply rounded-br-lg;
+}
+
+.table th {
+  @apply px-6 py-3 text-xs font-medium text-gray-500 border-b border-gray-200;
+}
+
+.table td {
+  @apply py-4 px-4.5 text-sm;
+}
+
+.table tbody tr:not(:last-child) td {
+  @apply border-b border-gray-200;
+}
+
+/* Sizes */
+
+.table.is-sm {
+  @apply rounded-md shadow-sm;
+}
+
+.table.is-sm th {
+  @apply px-4 py-2 text-xs;
+}
+
+.table.is-sm td {
+  @apply text-xs px-2.5 py-2;
+}
